@@ -1,52 +1,190 @@
 # FocusFlow
 
-FocusFlow is a local-first productivity OS portfolio project built with React + Vite.
+### A priority-driven productivity workspace designed to help you focus on what actually matters.
 
-## Included experience
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-111827)
 
-- Real-time circular analog FocusFlow clock on the landing/login experience
-- Priority-based task management
+---
+
+## 🚀 Live Demo
+
+**FocusFlow:**  
+https://github.com/krishnaCode27/FocusFlow
+
+> Add your deployed website URL above when the production deployment is ready.
+
+---
+
+## ✨ Overview
+
+FocusFlow is a modern productivity web application that transforms a simple task list into a **priority-based workflow**.
+
+Instead of treating every task equally, FocusFlow evaluates tasks using factors such as:
+
+- Importance
+- Effort
+- Due date
+- Urgency
+
+The goal is simple:
+
+> **Spend less time deciding what to do and more time doing what matters.**
+
+FocusFlow is built as a portfolio project to demonstrate modern frontend development, UI/UX design, state management, browser storage, productivity logic, responsive design, and product thinking.
+
+---
+
+## 🎯 Why FocusFlow?
+
+Traditional task managers mostly answer:
+
+> "What do I need to do?"
+
+FocusFlow tries to answer:
+
+> **"What should I do first?"**
+
+The application combines task management with a lightweight priority scoring system, Focus Mode, personalization, onboarding, and a premium-style product experience.
+
+---
+
+# 🧠 Core Features
+
+## Smart Task Prioritization
+
+FocusFlow automatically calculates a priority score for tasks using:
+
+- Importance
+- Effort
+- Due date
+- Deadline urgency
+
+Tasks are then categorized into:
+
+- 🔴 High Priority
+- 🟡 Medium Priority
+- 🟢 Low Priority
+
+This makes it easier to identify the most important task at any moment.
+
+---
+
+## 📋 Task Management
+
+Users can:
+
+- Create tasks
+- Edit tasks
+- Delete tasks
+- Complete tasks
+- Reopen completed tasks
+- Add descriptions
+- Set importance
+- Set effort
+- Set due dates
+- Add reminders
+- Search tasks
+- Sort tasks by priority
+
+---
+
+## 🎯 Focus Mode
+
+Focus Mode removes unnecessary distractions and highlights the task with the highest current priority.
+
+It includes:
+
+- Highest-priority task
+- Focus timer
+- Progress indicator
+- Task completion
+- Quick task creation
+- Real-time clock
+
+The philosophy is:
+
+> **One task. Full attention.**
+
+---
+
+## 👤 Guest Experience
+
+Users can explore the complete application without creating an account.
+
+Guest mode includes:
+
+- Preloaded demo tasks
+- Interactive onboarding
+- Task management
 - Focus Mode
-- Light / Dark / System themes
-- Eight theme palettes with premium Plus themes
-- Responsive desktop sidebar + mobile bottom navigation
-- Premium activation celebration with generated browser audio + confetti
-- FocusFlow Plus branding after activation
-- 3D animated About Developer experience
-- FocusFlow Elite roadmap card
-- Local demo onboarding
-- Browser notification permission flow
+- Theme customization
+- Premium preview
+- Local persistence
 
-## Demo authentication
+This makes FocusFlow easy to demonstrate during portfolio reviews and interviews.
 
-This is a portfolio/demo authentication system. It is **not production-grade authentication**.
+---
 
-Admin demo:
+# 🎨 Personalization
 
-- Email: `admin@focusflow.local`
-- Password: `FocusFlow@2026`
+FocusFlow includes a configuration-driven theme system.
 
-Premium demo activation code:
+Users can customize:
 
-- `KRISHNA49`
+### Appearance
 
-The activation code is intentionally not displayed inside the UI. No real payment or UPI transaction is processed.
+- Light Mode
+- Dark Mode
+- System Mode
 
-## Privacy model
+### Color Palettes
 
-Tasks, settings and demo session state are stored in browser LocalStorage. The app does not send task data to a backend.
+- Mint
+- Monochrome
+- Indigo
+- Orchid
+- Orange
+- Lime
+- Slate
+- Rosewood
 
-Browser reminders in this demo depend on the app/browser being active. Reliable background push notifications would require a service worker, push subscription and backend infrastructure.
+Premium palettes are presented through the simulated premium experience.
 
-## Run
+The theme system uses centralized configuration and CSS variables, making it easy to add new themes without redesigning individual components.
 
-```bash
-npm install
-npm run dev
-```
+---
 
-## Build
+# 💎 Premium Experience
 
-```bash
-npm run build
-```
+FocusFlow includes a simulated monetization experience designed to demonstrate product thinking.
+
+The Premium section includes:
+
+### Free
+
+Core productivity features.
+
+### Premium / FocusFlow Plus
+
+Additional themes and enhanced productivity experiences.
+
+### Elite
+
+**Coming Soon**
+
+Advanced productivity and AI-powered features planned for future development.
+
+---
+
+## 🔐 Demo Activation
+
+The application contains a portfolio/demo activation system.
+
+### Demo activation code
+
+```text
+KRISHNA49
